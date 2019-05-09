@@ -39,8 +39,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BossEnemy.cs" />
     <Compile Include="Calculator.cs" />
+    <Compile Include="Enemy.cs" />
+    <Compile Include="EnemyFactory.cs" />
+    <Compile Include="NameJoiner.cs" />
+    <Compile Include="NormalEnemy.cs" />
+    <Compile Include="PlayerCharacter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SpecialDates.cs" />
+    <Compile Include="SpecialDateStore.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
